@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shares/header/header.component';
@@ -9,6 +10,7 @@ import { CustomDatePipe } from './pipes/custom-date.pipe';
 
 import { JwPaginationComponent } from 'jw-angular-pagination';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
+import { NewsDetailComponent } from './pages/news-detail/news-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap'
     HeaderComponent,
     HomeComponent,
     CustomDatePipe,
-    JwPaginationComponent
+    JwPaginationComponent,
+    NewsDetailComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     NgbPaginationModule,
-    NgbAlertModule
+    NgbAlertModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

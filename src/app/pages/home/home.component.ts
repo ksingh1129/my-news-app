@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationExtras } from '@angular/router';
 
 import { NewsService } from '../../services/news.service';
 import { TopHeadLinesResponseModel, Article } from 'src/app/models/top-head-lines-response-model';
@@ -24,7 +25,7 @@ export class HomeComponent implements OnInit {
   pageSize: number;
   collectionSize: number;
 
-  constructor(private newsService: NewsService) { }
+  constructor(private newsService: NewsService, private router: Router) { }
 
   ngOnInit() {
     this.newsService.getTopHeadlinesNews().subscribe((res: any) => {
@@ -37,6 +38,17 @@ export class HomeComponent implements OnInit {
       this.pageSize = 10;
       this.collectionSize = this.news.length;
     });
+  }
+
+  viewDetail(news: Article){
+    let url = `${news.title}`;
+    let navigationExtras: NavigationExtras = {
+      queryParams: {
+        content: news.content
+      }
+    };
+    console.log(navigationExtras);
+    this.router.navigate([url], navigationExtras);
   }
 
 }
