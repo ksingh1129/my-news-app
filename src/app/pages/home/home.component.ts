@@ -22,15 +22,7 @@ export class HomeComponent implements OnInit {
     this.newsService.getTopHeadlinesNews().subscribe((res: any) => {
       this.successResponseModel = res;
       this.news = this.successResponseModel.articles;
-      this.news = this.tranfromDate(this.news);
     });
-  }
-
-  private tranfromDate(news: Array<Article>): Array<Article> {
-    news.forEach((newItem: Article) => {
-      newItem.publishedAt = moment(newItem.publishedAt).fromNow();
-    });
-    return news;
   }
 
 }
