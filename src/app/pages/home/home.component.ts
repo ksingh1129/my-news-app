@@ -4,6 +4,7 @@ import { NewsService } from '../../services/news.service';
 import { TopHeadLinesResponseModel, Article } from 'src/app/models/top-head-lines-response-model';
 
 import * as moment from 'moment';
+import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
@@ -16,12 +17,25 @@ export class HomeComponent implements OnInit {
   successResponseModel: TopHeadLinesResponseModel;
   news: Array<any>;
 
+  items: Array<any> = [];
+  pageOfItems: Array<any>;
+
+  page: number;
+  pageSize: number;
+  collectionSize: number;
+
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
     this.newsService.getTopHeadlinesNews().subscribe((res: any) => {
       this.successResponseModel = res;
       this.news = this.successResponseModel.articles;
+
+      this.items = Array(150).fill(0).map((x, i) => ({ id: (i + 1), name: `Item ${i + 1}`})); 
+
+      this.page = 0;
+      this.pageSize = 10;
+      this.collectionSize = this.news.length;
     });
   }
 

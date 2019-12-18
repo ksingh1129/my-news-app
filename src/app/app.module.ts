@@ -7,16 +7,22 @@ import { HeaderComponent } from './shares/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CustomDatePipe } from './pipes/custom-date.pipe';
 
+import { JwPaginationComponent } from 'jw-angular-pagination';
+import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    CustomDatePipe
+    CustomDatePipe,
+    JwPaginationComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbPaginationModule,
+    NgbAlertModule
   ],
   providers: [],
   bootstrap: [AppComponent]
