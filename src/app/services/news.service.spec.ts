@@ -23,7 +23,38 @@ describe('NewsService', () => {
     newsService = new NewsService(httpClientSpy as any);
   });
 
-  it('should being call with ok status returned', () => {
+  it('getTopHeadlinesNews should contain TopHeadLinesRsponseModel', () => {
+
+    const expectedModel: TopHeadLinesResponseModel = {
+      status: "",
+      totalResults: 0,
+      articles: [
+        {
+          source: {
+            id: null,
+            name: ""
+          },
+          author: "",
+          title: "",
+          description: "",
+          url: "",
+          urlToImage: "",
+          publishedAt: "",
+          content: ""
+        }
+      ]
+    };
+
+    httpClientSpy.get.and.returnValue(asyncData(mockResponseModel));
+    newsService.getTopHeadlinesNews().subscribe(
+      response => expect(response).toEqual(expectedModel),
+      fail
+    );
+
+    expect(httpClientSpy.get.calls.count()).toBe(1);
+  });
+
+  it('getTopHeadlinesNews should return ok status', () => {
     const expectedData: TopHeadLinesResponseModel = {
       status: 'ok',
       totalResults: 2,
@@ -65,37 +96,6 @@ describe('NewsService', () => {
 
     expect(httpClientSpy.get.calls.count()).toBe(1);
 
-  });
-
-  it('should contain TopHeadLinesRsponseModel', () => {
-
-    const expectedModel: TopHeadLinesResponseModel = {
-      status: "",
-      totalResults: 0,
-      articles: [
-        {
-          source: {
-            id: null,
-            name: ""
-          },
-          author: "",
-          title: "",
-          description: "",
-          url: "",
-          urlToImage: "",
-          publishedAt: "",
-          content: ""
-        }
-      ]
-    };
-
-    httpClientSpy.get.and.returnValue(asyncData(mockResponseModel));
-    newsService.getTopHeadlinesNews().subscribe(
-      response => expect(response).toEqual(expectedModel),
-      fail
-    );
-
-    expect(httpClientSpy.get.calls.count()).toBe(1);
   });
 
 });
