@@ -13,12 +13,12 @@ export class NewsService {
 
   constructor(private http: HttpClient) { }
 
-  getTopHeadlinesNews() : Observable<any>{
+  getTopHeadlinesNews(): Observable<any> {
     return this.http.get<any>("https://newsapi.org/v2/top-headlines?country=us&apiKey=8b83bf223a1c4609bc209b5d19c258b7")
               .pipe(
                 tap(res => console.log("getTopHeadlinesNews response log:", res)),
                 catchError(error => of(`Something happend: ${error}`))
-              )
+              );
   }
 
 }
