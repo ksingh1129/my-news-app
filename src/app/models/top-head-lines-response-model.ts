@@ -1,10 +1,10 @@
 export interface TopHeadLinesResponseModel {
     status: string;
     totalResults: number;
-    articles: Array<Articles>;
+    articles: Array<Article>;
 }
 
-export interface Articles {
+export interface Article {
     source: Source;
     author: string;
     title: string;
