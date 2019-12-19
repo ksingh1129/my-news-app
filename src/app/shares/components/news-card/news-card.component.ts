@@ -12,20 +12,16 @@ export class NewsCardComponent implements OnInit {
 
   @Input() newsResponse: TopHeadLinesResponseModel;
 
-  page: number;
-  pageSize: number;
-  collectionSize: number;
+  page: number = 0; 
+  pageSize: number = 10;
+  collectionSize:number;
   newsList: Array<Article>;
 
-  constructor(private router: Router) { 
-    this.page = 0;
-    this.pageSize = 10;
-  }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.newsList = this.newsResponse.articles;
     this.collectionSize = this.newsList.length;
-    console.log(this.newsResponse);
   }
 
   viewDetail(news: Article){

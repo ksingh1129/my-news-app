@@ -12,6 +12,7 @@ import { JwPaginationComponent } from 'jw-angular-pagination';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { NewsDetailComponent } from './pages/news-detail/news-detail.component';
 import { NewsCardComponent } from './shares/components/news-card/news-card.component';
+import { FooterComponent } from './shares/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NewsCardComponent } from './shares/components/news-card/news-card.compo
     CustomDatePipe,
     JwPaginationComponent,
     NewsDetailComponent,
-    NewsCardComponent
+    NewsCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

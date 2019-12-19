@@ -31,14 +31,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getArticles();
-  }
 
-  getAllNews() {
-    this.newsService.getTopHeadlinesNews().subscribe((res: any) => {
-      this.newsResponse = res;
-      console.log(this.newsResponse);
-    });
   }
 
   searchNews(key: string) {
@@ -46,11 +39,6 @@ export class HeaderComponent implements OnInit {
     this.key.next(key);
   }
 
-  getArticles() {
-    return this.newsService.getTopHeadlinesNews().subscribe((res: TopHeadLinesResponseModel) => {
-      console.log("CustomResponse");
-      console.log(res);
-    });
-  }
+
 
 }
