@@ -25,26 +25,34 @@ export class HomeComponent implements OnInit {
   pageSize: number;
   collectionSize: number;
 
+  pageLoad: boolean = false;
+
   constructor(private newsService: NewsService, private router: Router) { }
 
   ngOnInit() {
     this.newsService.getTopHeadlinesNews().subscribe((res: any) => {
       this.successResponseModel = res;
       this.news = this.successResponseModel.articles;
-
-      this.items = Array(150).fill(0).map((x, i) => ({ id: (i + 1), name: `Item ${i + 1}`})); 
-
       this.page = 0;
       this.pageSize = 10;
       this.collectionSize = this.news.length;
+      this.pageLoad = true;
     });
   }
 
   viewDetail(news: Article){
     let url = `${news.title}`;
+
     let navigationExtras: NavigationExtras = {
       queryParams: {
-        content: news.content
+        sourceName: news.source.name,
+        author: news.author,
+        title: news.title,
+        content: news.content,
+        description: news.description,
+        url: news.url,
+        urlToImage: news.urlToImage,
+        publishedAt: news.publishedAt
       }
     };
     console.log(navigationExtras);

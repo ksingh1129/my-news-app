@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import { Article } from 'src/app/models/top-head-lines-response-model';
+import { NewsDetailModel } from 'src/app/models/news-detail-model';
 
 @Component({
   selector: 'app-news-detail',
@@ -10,13 +10,15 @@ import { Article } from 'src/app/models/top-head-lines-response-model';
 })
 export class NewsDetailComponent implements OnInit {
 
-  content: string;
+  newsDetail: NewsDetailModel;
 
   constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
-    this.route.queryParams.subscribe((params: any) => {
-      this.content = params['content'];
+    this.route.queryParams.subscribe((params: NewsDetailModel) => {
+      this.newsDetail = params;
+      console.log(params);
+      console.log(this.newsDetail.title);
     });
   }
 

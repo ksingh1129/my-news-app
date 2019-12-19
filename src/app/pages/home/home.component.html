@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" *ngIf="pageLoad">
     <div class="row">
       <div class="col-md-4 d-flex align-items-stretch" *ngFor="let new of news | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
         <div class="card mb-4 shadow-sm" height="300">
@@ -16,9 +16,10 @@
         </div>
       </div>
   </div>
-  <div class="row justify-content-center align-items-center">
+  <div class="row justify-content-center align-items-center" *ngIf="pageLoad">
     <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
   </div>
+  
 
   <ng-template #showThumbnail>
     <svg class="card-img-top img-fulid" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" text-anchor="middle">Thumbnail</text></svg>
