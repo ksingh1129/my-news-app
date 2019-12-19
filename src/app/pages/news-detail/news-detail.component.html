@@ -1,7 +1,7 @@
 <div class="container">
     <h1 class="mt-5">{{ newsDetail.title }}</h1>
     <small>by {{newsDetail.author}}, {{ newsDetail.sourceName }} {{ newsDetail.publishedAt | customDate }}</small>
-    <img class="card-img-top img-fulid" *ngIf="newsDetail.urlToImage != null else showThumbnail" width="100%" height="450" src="{{ newsDetail.urlToImage }}" />
+    <img class="card-img-top img-fulid" *ngIf="newsDetail.urlToImage != null else showThumbnail" width="100%" height="450" src="{{ newsDetail.urlToImage }}" alt="Failed to Load Image"/>
     <p class="lead">{{ newsDetail.description }}</p>
     <p>{{ newsDetail.content }} <a href="{{newsDetail.url}}" target="_blank">Go to Source</a></p>
     <button type="button" class="btn btn-primary" (click)="goBack()">Back</button>
