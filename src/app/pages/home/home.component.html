@@ -8,4 +8,4 @@
           </div>
       </form>
 </div>
-<app-news-card *ngIf="pageLoad" [newsResponse] = successResponseModel ></app-news-card>
+<app-news-card *ngIf="pageLoad" [newsResponse] = successResponseModel [searchResult] = responseAsync ></app-news-card>

@@ -1,3 +1,4 @@
+import { async } from '@angular/core/testing';
 import { Component, OnInit, Input } from '@angular/core';
 import { Router, NavigationExtras } from '@angular/router';
 
@@ -11,13 +12,15 @@ import { Article, TopHeadLinesResponseModel } from 'src/app/models/top-head-line
 export class NewsCardComponent implements OnInit {
 
   @Input() newsResponse: TopHeadLinesResponseModel;
+  @Input() searchResult: any;
+  @Input() size: number;
 
   page: number = 0; 
   pageSize: number = 10;
   collectionSize:number;
   newsList: Array<Article>;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {
     this.newsList = this.newsResponse.articles;
