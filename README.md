@@ -1,5 +1,7 @@
 # MyNewsApp
 
+Demo App: my-news-app(https://my-news-app-5c930.firebaseapp.com/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
