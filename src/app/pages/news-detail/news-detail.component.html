@@ -1,8 +1,10 @@
 <img class="img-fulid" *ngIf="newsDetail.urlToImage != null else showThumbnail" width="100%" height="450" src="{{ newsDetail.urlToImage }}"/>
 <div class="container">
     <h1 class="mt-5">{{ newsDetail.title }}</h1>
-    <p><small>Author {{newsDetail.author}}, {{ newsDetail.sourceName }}</small></p>
-    <p><small>{{ newsDetail.publishedAt | customDate }}</small></p>
+    <p>
+      <small>Author {{newsDetail.author}}, {{ newsDetail.sourceName }}</small><br>
+      <small>{{ newsDetail.publishedAt | customDate }}</small>
+    </p>
     <p class="lead">{{ newsDetail.description }}</p>
     <p>{{ newsDetail.content }}</p>
 </div>

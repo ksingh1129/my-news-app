@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
+import { NgxSpinnerModule } from "ngx-spinner";
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shares/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -30,7 +32,8 @@ import { FooterComponent } from './shares/footer/footer.component';
     HttpClientModule,
     NgbPaginationModule,
     NgbAlertModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

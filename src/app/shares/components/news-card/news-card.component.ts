@@ -1,4 +1,3 @@
-import { async } from '@angular/core/testing';
 import { Component, OnInit, Input } from '@angular/core';
 import { Router, NavigationExtras } from '@angular/router';
 
@@ -13,7 +12,6 @@ export class NewsCardComponent implements OnInit {
 
   @Input() newsResponse: TopHeadLinesResponseModel;
   @Input() searchResult: any;
-  @Input() size: number;
 
   page: number = 0; 
   pageSize: number = 10;
