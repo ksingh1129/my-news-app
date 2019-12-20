@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router, NavigationExtras } from '@angular/router';
 
-import { Article, TopHeadLinesResponseModel } from 'src/app/models/top-head-lines-response-model';
+import { Article, TopHeadLinesResponseModel } from '../../models/top-head-lines-response-model';
 
 @Component({
   selector: 'app-news-card',
