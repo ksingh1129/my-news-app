@@ -12,8 +12,9 @@ import { CustomDatePipe } from './pipes/custom-date.pipe';
 
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { NewsDetailComponent } from './pages/news-detail/news-detail.component';
-import { NewsCardComponent } from './shares/components/news-card/news-card.component';
+import { NewsCardComponent } from './components/news-card/news-card.component';
 import { FooterComponent } from './shares/footer/footer.component';
+import { DefaultImageDirective } from './directives/default-image.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './shares/footer/footer.component';
     CustomDatePipe,
     NewsDetailComponent,
     NewsCardComponent,
-    FooterComponent
+    FooterComponent,
+    DefaultImageDirective
   ],
   imports: [
     BrowserModule,
