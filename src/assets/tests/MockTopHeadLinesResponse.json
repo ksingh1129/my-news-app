@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Etonline.com"
+            },
+            "author": "Liz Calvario‍",
+            "title": "'The Voice' Crowns Season 17 Winner -- Find Out Who Won! - Entertainment Tonight",
+            "description": "Another season comes to an end and the winner is...",
+            "url": "https://www.etonline.com/the-voice-crowns-season-17-winner-find-out-who-won-138165",
+            "urlToImage": "https://www.etonline.com/sites/default/files/styles/max_1280x720/public/images/2019-12/gettyimages-1189046935.jpg?itok=XwF8daSw",
+            "publishedAt": "2019-12-18T03:59:35Z",
+            "content": "It all comes down to this!\r\nIt's been an incredible season 17 for The Voice, but only one could be crowned the winner. Wednesday's finale was a special one, as for the first time in the last seven seasons, all four coaches on the NBC singing competition show … [+1874 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Paul LeBlanc, CNN",
+            "title": "Democrat from swing district: I didn't want to impeach Trump for months 'and then the facts changed' - CNN",
+            "description": "A freshman Democratic congresswoman from a swing district says she resisted supporting the impeachment of President Donald Trump for months until \"the facts changed\" and she decided to vote yes on both articles of impeachment.",
+            "url": "https://www.cnn.com/2019/12/17/politics/swing-district-democrat-elissa-slotkin-trump-impeachment-cnntv/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/191005145532-slotkin-super-tease.jpg",
+            "publishedAt": "2019-12-18T02:57:00Z",
+            "content": "Washington (CNN)A freshman Democratic congresswoman from a swing district says she resisted supporting the impeachment of President Donald Trump for months until \"the facts changed\" and she decided to vote yes on both articles of impeachment.\r\nBefore Monday, … [+2244 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youtube.com"
+            },
+            "author": null,
+            "title": "FISA court publicly rips FBI over improper surveillance - Fox News",
+            "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+            "url": "https://www.youtube.com/watch?v=JIJ6j0Pe-3A",
+            "urlToImage": null,
+            "publishedAt": "2019-12-18T02:46:11Z",
+            "content": "[[getSimpleString(data.title)]]\r\n[[getSimpleString(data.description)]]\r\n[[getSimpleString(data.videoCountText)]]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Nate Day",
+            "title": "'Survivor' contestant Kellee Kim responds to costar Dan Spilo's apology for alleged inappropriate conduct - Fox News",
+            "description": "“Survivor: Island of the Idols” contestant​​​​​​​ Kellee Kim has responded to fellow cast member Dan Spilo's public apology following his ousting from the show.",
+            "url": "https://www.foxnews.com/entertainment/kellee-kim-responds-survivor-costar-dan-spilo-apology",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/11/Survivor1-1.jpg",
+            "publishedAt": "2019-12-18T02:44:08Z",
+            "content": "“Survivor: Island of the Idols” contestant Kellee Kim has responded to fellow cast member Dan Spilo's public apology following his ousting from the show.\r\nSpilo issued a public apology in a statement to People magazine after being accused of \"inappropriately\"… [+3422 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Foxbusiness.com"
+            },
+            "author": "Dow Jones Newswires",
+            "title": "PG&E, California agree to $1.68 billion settlement for wildfires - Fox Business",
+            "description": "The California Public Utilities Commission has proposed a $1.68 billion settlement with PG&E Corp. for the role the utility company played in igniting a series of deadly wildfires in 2017 and 2018 that killed more than 100 people.",
+            "url": "https://www.foxbusiness.com/money/pge-california-agree-to-1-68-billion-settlement-for-wildfires",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2019/10/0/0/PGE-Getty-califronia-fire.jpg?ve=1&tl=1",
+            "publishedAt": "2019-12-18T02:03:01Z",
+            "content": "The California Public Utilities Commission has proposed a $1.68 billion settlement with PG&amp;E Corp. for the role the utility company played in igniting a series of deadly wildfires in 2017 and 2018 that killed more than 100 people.\r\nUnder the terms of the … [+857 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Cheatsheet.com"
+            },
+            "author": "Michelle Kapusta",
+            "title": "How Kate Middleton Helped Meghan Markle Make Her Christmas Plans This Year - Showbiz Cheat Sheet",
+            "description": "Find why Meghan Markle can credit Kate Middleton for making her decision to spend Christmas in the U.S. an easy one.",
+            "url": "https://www.cheatsheet.com/entertainment/how-kate-middleton-helped-meghan-markle-make-her-christmas-plans-this-year.html/",
+            "urlToImage": "https://www.cheatsheet.com/wp-content/uploads/2019/12/Kate-Middleton-and-Meghan-Markle-1024x769.jpg",
+            "publishedAt": "2019-12-18T02:01:42Z",
+            "content": "On Christmas Day fans can always expect to see the royal family arriving at church service near Queen Elizabeth II‘s Sandringham estate in Norfolk. However, this year we won’t see a couple of popular royals as Prince Harry and Meghan Markle are spending the h… [+2844 chars]"
+        },
+        {
+            "source": {
+                "id": "the-new-york-times",
+                "name": "The New York Times"
+            },
+            "author": "Jan Ransom",
+            "title": "Lawyer Casts Doubt on Boy’s Statements About Murder of Barnard Student - The New York Times",
+            "description": "A defense lawyer suggested detectives had badgered and yelled at a 13-year-old boy before he admitted participating in the fatal mugging of Tessa Majors.",
+            "url": "https://www.nytimes.com/2019/12/17/nyregion/tessa-majors-suspect-barnard-stabbing.html",
+            "urlToImage": "https://static01.nyt.com/images/2019/12/16/nyregion/16barnard-02/16barnard-02-facebookJumbo.jpg",
+            "publishedAt": "2019-12-18T01:29:00Z",
+            "content": "Investigators also have a grainy video that shows a scuffle at the bottom of the steps where Ms. Majors was attacked and a person making poking motions toward the victim, Detective Wilfredo Acevedo testified at the probable cause hearing on Tuesday. \r\nThe vid… [+1659 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Clare Duffy, CNN Business",
+            "title": "FedEx stock falls nearly 7% amid ongoing business challenges - CNN",
+            "description": "FedEx has been trying to turn its business around after a difficult year, but its second quarter results show that it's not nearly there yet.",
+            "url": "https://www.cnn.com/2019/12/17/business/fedex-earnings-second-quarter/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/191217180817-fedex-truck-file-super-tease.jpg",
+            "publishedAt": "2019-12-18T01:23:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-new-york-times",
+                "name": "The New York Times"
+            },
+            "author": "Scott Cacciola",
+            "title": "LeBron James Is 🔥🔥🔥 Online - The New York Times",
+            "description": "He was wary at first, but now James’s Instagram is the most candid glimpse into his likes and lifestyle. (Hint: Don’t disturb his naps.)",
+            "url": "https://www.nytimes.com/2019/12/17/sports/basketball/lebron-james-instagram-emojis.html",
+            "urlToImage": "https://static01.nyt.com/images/2019/12/18/sports/18nba-lebron-lede/18nba-lebron-lede-facebookJumbo.jpg",
+            "publishedAt": "2019-12-18T01:09:00Z",
+            "content": "If Instagram is a part of Jamess team-building formula, then emojis are his love language. It goes something like this: James will post a story about a teammate that includes emojis, then that teammate will repost Jamess original post by adding his own emojis… [+1355 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo.com"
+            },
+            "author": null,
+            "title": "2019 Week 16 Fantasy FLEX Rankings to help build championship-winning lineups - Yahoo Sports",
+            "description": "Be sure to research our FLEX rankings for all your tough Week 16 fantasy lineup decisions!",
+            "url": "https://sports.yahoo.com/2019-week-16-fantasy-flex-rankings-to-help-build-championshipwinning-lineups-010242722.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/tj8.7tbPblkWQH1vdMzoNw--~B/aD0yNDcyO3c9MzcwODtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-12/07c470d0-2131-11ea-84b4-88e8f6c4354a",
+            "publishedAt": "2019-12-18T01:02:00Z",
+            "content": "December heroes tend to emerge from (seemingly) out of nowhere this time of the fantasy season. A.J. Brown is clearly one of them. The Titans wide receiver went from averaging single-digit fantasy points Weeks 8-10 to double-digits Weeks 12-15.\r\n[Play in Yaho… [+423 chars]"
+        },
+        {
+            "source": {
+                "id": "nfl-news",
+                "name": "NFL News"
+            },
+            "author": "Around The NFL staff",
+            "title": "NFL reveals rosters for 2020 Pro Bowl - NFL.com",
+            "description": "Baltimore Ravens phenom Lamar Jackson is among the starters for the 2020 Pro Bowl in Orlando, Florida. Check out the complete AFC and NFC rosters for the game.",
+            "url": "http://www.nfl.com/news/story/0ap3000001089218/article/nfl-reveals-rosters-for-2020-pro-bowl-in-orlando",
+            "urlToImage": "http://static.nfl.com/static/content/public/photo/2019/12/17/0ap3000001089187_thumbnail_200_150.jpg",
+            "publishedAt": "2019-12-18T01:00:00Z",
+            "content": "Lamar Jackson is having a season to remember. It's one that will send him to Florida in late January for one reason or another.\r\nThe Baltimore Ravens' second-year phenom is among the starters for the 2020 Pro Bowl in Orlando, Florida. Jackson leads a continge… [+6669 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bbc.com"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Citizenship Amendment Act: The students versus the regime - BBC News",
+            "description": "Student protests in India show outrage over a divisive law and frustration over a slowing economy.",
+            "url": "https://www.bbc.com/news/world-asia-india-50820412",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11BDD/production/_110196627_mediaitem110196626.jpg",
+            "publishedAt": "2019-12-18T00:23:01Z",
+            "content": "Image copyrightEPAImage caption\r\n Students have united across India to protest against the law\r\nThousands of students across India have taken to the streets in recent days in an uprising against a controversial law that offers citizenship to non-Muslims from … [+4946 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bgr.com"
+            },
+            "author": "Mike Wehner",
+            "title": "SpaceX’s satellite launch on Monday almost went perfectly… almost - BGR",
+            "description": "SpaceX has had an incredibly busy year. The company has been sticking to a schedule of satellite launches for a variety of clients, while also continuing to develop its Starship rocket-of-the-futur…",
+            "url": "https://bgr.com/2019/12/17/spacex-fairing-recovery-nosecone/",
+            "urlToImage": "https://boygeniusreport.files.wordpress.com/2018/04/spacex-falcon.jpg?quality=98&strip=all",
+            "publishedAt": "2019-12-18T00:06:00Z",
+            "content": "SpaceX has had an incredibly busy year. The company has been sticking to a schedule of satellite launches for a variety of clients, while also continuing to develop its Starship rocket-of-the-future, and running resupply missions to the International Space St… [+1616 chars]"
+        },
+        {
+            "source": {
+                "id": "the-new-york-times",
+                "name": "The New York Times"
+            },
+            "author": "Abby Goodnough",
+            "title": "A New Drug Scourge: Deaths Involving Meth Are Rising Fast - The New York Times",
+            "description": "Today’s meth is far more potent than earlier versions, but because it isn’t an opioid, many federal addiction treatment funds can’t be used to fight it.",
+            "url": "https://www.nytimes.com/2019/12/17/health/meth-deaths-opioids.html",
+            "urlToImage": "https://static01.nyt.com/images/2019/12/04/science/00METH1/00METH1-facebookJumbo.jpg",
+            "publishedAt": "2019-12-17T23:49:00Z",
+            "content": "Provisional data from the C.D.C. shows there were about 13,000 deaths involving meth nationwide in 2018, more than twice as many as in 2015. That is still far fewer than opioid deaths overall, which passed 47,000, but the pace is accelerating while opioid fat… [+1948 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Farah Master",
+            "title": "Chinese leader Xi visits gambling hub Macau as nearby Hong Kong seethes - Reuters.com",
+            "description": "China's President Xi Jinping begins a three-day visit to the gambling hub of Macau on Wednesday to mark the 20th anniversary of its handover to China, with security tight as protests rock nearby Hong Kong.",
+            "url": "https://www.reuters.com/article/us-macau-politics-idUSKBN1YL2LW",
+            "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20191218&t=2&i=1465446128&w=1200&r=LYNXMPEFBH06F",
+            "publishedAt": "2019-12-17T23:32:00Z",
+            "content": "HONG KONG (Reuters) - China’s President Xi Jinping begins a three-day visit to the gambling hub of Macau on Wednesday to mark the 20th anniversary of its handover to China, with security tight as protests rock nearby Hong Kong. \r\nXi’s visit to the former Port… [+2743 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Space.com"
+            },
+            "author": "Chelsea Gohd",
+            "title": "Excitement Builds for Boeing's 1st Starliner Test Launch Friday - Space.com",
+            "description": "",
+            "url": "https://www.space.com/boeing-starliner-oft-test-flight-ready-for-launch.html",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/ACBHaShDorKtuKXu6ZtZg-1200-80.jpg",
+            "publishedAt": "2019-12-17T23:32:00Z",
+            "content": "CAPE CANAVERAL, Fla.  — The debut test flight of a Boeing Starliner\r\n astronaut taxi for NASA is ready to fly, with great weather expected for its launch to the International Space Station Friday (Dec. 20). \r\nA United Launch Alliance Atlas V rocket\r\n will lau… [+4092 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Macrumors.com"
+            },
+            "author": "Juli Clover",
+            "title": "Hands-On With Apple's New 2019 Mac Pro - MacRumors",
+            "description": "Apple last week finally launched its long awaited 2019 Mac Pro, providing its professional user base with the high-end high-throughput modular...",
+            "url": "https://www.macrumors.com/2019/12/17/mac-pro-hands-on/",
+            "urlToImage": "https://images.macrumors.com/article-new/2019/12/macprounboxingthumbnail.jpg?retina",
+            "publishedAt": "2019-12-17T23:18:00Z",
+            "content": "Apple last week finally launched its long awaited 2019 Mac Pro, providing its professional user base with the high-end high-throughput modular machine they've always hoped for.\r\nWe picked up a base model ‌Mac Pro‌ and in our latest YouTube video, we unbox it … [+2894 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nypost.com"
+            },
+            "author": "Larry Celona, Tina Moore, Kevin Sheehan, Aaron Feis",
+            "title": "Bronx teen Karol Sanchez staged her own kidnapping: police sources - New York Post ",
+            "description": "The apparent abduction of a 16-year-old girl from a Bronx street sparked an Amber Alert and a citywide manhunt late Monday into Tuesday. But hours later, the girl resurfaced and admitted to cops th…",
+            "url": "https://nypost.com/2019/12/17/karol-sanchez-staged-her-own-kidnapping-police-sources/",
+            "urlToImage": "https://thenypost.files.wordpress.com/2019/12/karol-sanchez.jpg?quality=90&strip=all&w=1200",
+            "publishedAt": "2019-12-17T23:16:00Z",
+            "content": "The apparent abduction of a 16-year-old girl from a Bronx street sparked an Amber Alert and a citywide manhunt late Monday into Tuesday.\r\nBut hours later, the girl resurfaced and admitted to cops that the whole thing was staged so that she could be with her b… [+2502 chars]"
+        },
+        {
+            "source": {
+                "id": "cnbc",
+                "name": "CNBC"
+            },
+            "author": "Keris Lahiff",
+            "title": "Boeing shares tumble after company suspends 737 Max production — three experts on what to watch - CNBC",
+            "description": "Boeing shares dropped again on Tuesday after the company said it would suspend 737 Max production. Here's what three experts say investors should watch now.",
+            "url": "https://www.cnbc.com/2019/12/17/boeing-shares-fall-after-company-suspends-737-max-production.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106301456-1576620723211gettyimages-1189278978.jpeg?v=1576620796",
+            "publishedAt": "2019-12-17T22:45:00Z",
+            "content": "Boeing shares dropped again on Tuesday after the company said it would suspend 737 Max production.\r\nHere's what three experts say investors should watch now.\r\nSeth Kaplan, principal at Kaplan Research, says this news was a given.\r\n\"Right now I would rather se… [+1474 chars]"
+        },
+        {
+            "source": {
+                "id": "the-new-york-times",
+                "name": "The New York Times"
+            },
+            "author": "Ana Swanson",
+            "title": "Trump’s Trade Deals Raise, Rather Than Remove, Economic Barriers - The New York Times",
+            "description": "The president’s China and North American trade pacts reverse a trend of opening markets that was decades in the making.",
+            "url": "https://www.nytimes.com/2019/12/17/business/trump-trade-deals-free-markets.html",
+            "urlToImage": "https://static01.nyt.com/images/2019/12/17/business/17dc-chinatrade-01/17dc-chinatrade-01-facebookJumbo.jpg",
+            "publishedAt": "2019-12-17T21:42:00Z",
+            "content": "Mr. Lighthizer left government in 1985, but the Reagan administration continued with a managed trade approach, pushing Japan and South Korea to agree to import a certain amount of products. The Clinton administration also considered the tactic, but faced crit… [+1628 chars]"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<div class="container d-flex justify-content-end">
+    <form class="form-inline">
+        <div class="input-group mt-3 mb-3">
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Search..." (input)="searchNews($event.target.value)">
+            <div class="input-group-prepend">
+                <div class="input-group-text" >Search</div>
+              </div>
+          </div>
+      </form>
+</div>
+<div class="container d-flex justify-content-center" height="100%" *ngIf="!pageLoad">
+    Loading..
+    <!--<ngx-spinner [fullScreen]="false" type="ball-clip-rotate-multiple" size="medium" [zIndex]="1">
+        <p class="loading">Loading Awesomeness...</p>
+    </ngx-spinner>-->
+</div>
+<app-news-card *ngIf="pageLoad" [newsResponse] = successResponseModel [searchResult] = responseAsync ></app-news-card>
