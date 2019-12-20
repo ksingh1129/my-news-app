@@ -10,7 +10,6 @@ import { HeaderComponent } from './shares/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CustomDatePipe } from './pipes/custom-date.pipe';
 
-import { JwPaginationComponent } from 'jw-angular-pagination';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { NewsDetailComponent } from './pages/news-detail/news-detail.component';
 import { NewsCardComponent } from './shares/components/news-card/news-card.component';
@@ -22,7 +21,6 @@ import { FooterComponent } from './shares/footer/footer.component';
     HeaderComponent,
     HomeComponent,
     CustomDatePipe,
-    JwPaginationComponent,
     NewsDetailComponent,
     NewsCardComponent,
     FooterComponent
